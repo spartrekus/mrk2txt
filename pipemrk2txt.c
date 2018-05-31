@@ -48,6 +48,18 @@ int main( int argc, char *argv[])
                         putchar( ' ' );
                      }
 
+                     if ( ( c_prev1 >= 'a' ) && ( c_prev1 <= 'z' ))
+                     if ( c == '\n' )
+                     {
+                        putchar( ' ' );
+                     }
+
+                     if ( c_prev1 == ',' )
+                     if ( c == '\n' )
+                     {
+                        putchar( ' ' );
+                     }
+
                      if ( c_prev1 == '\n' )
                      if ( c == '\n' )
                      {
